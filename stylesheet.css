@@ -5,3 +5,16 @@ h1 {
 p{
   color:#0000ff;
 }
+h2 {
+  color: #e6855e;
+  font-size : 30 px;
+  background-color:#f3f372
+  heigth:80px;
+  width:200px;
+
+}
+img {
+  height:50px;
+  width:70px;
+
+}
