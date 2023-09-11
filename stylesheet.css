@@ -86,25 +86,32 @@ li {
 }
 
 .footer {
-  /* Ganti background-color ke #2f5167 */
-  background-color: #ceccf3;
+  /* Gantikan background-color ke #2f5167 */
+  background-color: #2f5167;
   
-  /* Ganti color ke #fff */
+  /* Gantikan color ke #fff */
+  color: #fff;
   
+  /* Gantikan height ke 120px */
+  height: 120px;
   
-  /* Ganti height ke 120px */
-  height: 270px;
-  
-  /* Ganti padding untuk semua sisi ke 40px */
-  
+  /* Gantikan padding untuk semua sisi ke 40px */
+  padding: 40px;
   
 }
 
-/* Ganti font-size dan property float footer-logo */
+/* Gantikan font-size dan property float footer-logo */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
 
+/* Gantikan float property footer-list */
+.footer-list {
+  float: right;
+}
 
-/* Ganti float property footer-list */
-
-
-/* Tambahkan CSS untuk tag <li> ke dalam footer-list */
-
+/* Tambahkan CSS untuk tag <li> kedalam footer-list */
+.footer-list li {
+  padding-bottom: 20px;
+}
