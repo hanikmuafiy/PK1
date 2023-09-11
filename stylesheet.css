@@ -81,37 +81,33 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  padding: 100px 80px;
+}
+.copy-container h1 {
+  font-size: 140px;
+}
+.copy-container h2 {
+  font-size: 60px;
+}
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .footer {
-  /* Gantikan background-color ke #2f5167 */
   background-color: #2f5167;
-  
-  /* Gantikan color ke #fff */
   color: #fff;
-  
-  /* Gantikan height ke 120px */
   height: 120px;
-  
-  /* Gantikan padding untuk semua sisi ke 40px */
   padding: 40px;
   
 }
-
-/* Gantikan font-size dan property float footer-logo */
 .footer-logo {
   font-size: 32px;
   float: left;
 }
-
-/* Gantikan float property footer-list */
 .footer-list {
   float: right;
 }
 
-/* Tambahkan CSS untuk tag <li> kedalam footer-list */
 .footer-list li {
   padding-bottom: 20px;
 }
