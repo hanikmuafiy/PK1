@@ -33,12 +33,25 @@ li {
   margin: 0 auto;
 }
 
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+
 .btn {
   padding: 12px 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
+  border-radius: 4px;
 }
+
+.btn:hover {
+  opacity: 1;
 
 .signup {
   background-color: #239b76;
@@ -53,14 +66,14 @@ li {
   background-color: #55acee;
 }
 
-
-.main {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
+.btn-wrapper {
+  margin: 20px 0;
 }
 
+.btn-wrapper p {
+  margin: 10px 0;
+}
+  
 .contents {
   height: 500px;
   margin-top: 100px;
