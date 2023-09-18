@@ -27,16 +27,17 @@ li {
   padding: 100px 80px;
 }
 
-.copy-container h1 {
-  font-size: 140px;
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
 }
 
 .contents {
