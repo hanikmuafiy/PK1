@@ -1,21 +1,28 @@
 body {
-  font-family: "Avenir Next";
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
 li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  transition: all 0.5s;
 }
 
 .header-logo {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
+  transition: all 0.5s;
 }
 
 .header-list li {
